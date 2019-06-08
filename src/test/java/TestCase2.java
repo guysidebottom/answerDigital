@@ -18,7 +18,7 @@ public class TestCase2 {
     }
 
     @Test
-    public void shouldScrollPageVerticallyTwiceAndAssertHeader() throws InterruptedException {
+    public void shouldScrollPageVerticallyTwiceAndAssertHeader() {
         JavascriptExecutor jsExec = firefoxDriver;
 
         for(int i = 0; i < 2; i++) {

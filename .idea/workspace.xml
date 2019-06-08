@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fe1cb7e-c1e5-4e80-bc0f-dbb24f901f36" name="Default Changelist" comment="" />
+    <list default="true" id="1fe1cb7e-c1e5-4e80-bc0f-dbb24f901f36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationHelperMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase3.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -39,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="28" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="279">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,26 +58,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="60">
+              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
               <folding>
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCase3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestCase3.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AutomationHelperMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -84,15 +97,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Drivers.java" />
         <option value="$PROJECT_DIR$/src/test/java/ADAutomationTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCase1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCase2.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCase3.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCase2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCase1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AutomationHelperMethods.java" />
       </list>
     </option>
   </component>
@@ -120,12 +137,12 @@
     <option name="width" value="960" />
     <option name="height" value="551" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,10 +172,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -176,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCase3.shouldPressFourKeysAndAssertWhatWasPressed">
+  <component name="RunManager" selected="JUnit.TestCase1.shouldDisplayErrorWhenUsingInvalidPassword">
     <configuration name="TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnswerDigitalTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -228,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" />
+        <item itemvalue="JUnit.TestCase1" />
         <item itemvalue="JUnit.TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" />
         <item itemvalue="JUnit.TestCase2.shouldScrollPageVerticallyTwiceAndAssertHeader" />
         <item itemvalue="JUnit.TestCase2.shouldScrollPageVerticallyAndAssertHeader" />
-        <item itemvalue="JUnit.TestCase1" />
-        <item itemvalue="JUnit.TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -249,26 +268,12 @@
       <workItem from="1559656048290" duration="1045000" />
       <workItem from="1559675322677" duration="3096000" />
       <workItem from="1559761154758" duration="3055000" />
-      <workItem from="1559849910691" duration="1276000" />
+      <workItem from="1559849910691" duration="1568000" />
+      <workItem from="1559988108748" duration="1481000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCase2_shouldScrollPageVerticallyAndAssertHeader - 2019.06.05 at 20h 32m 07s.xml">
-      <configuration name="TestCase2.shouldScrollPageVerticallyAndAssertHeader" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase2_shouldScrollPageVerticallyAndAssertHeader - 2019.06.05 at 20h 33m 10s.xml">
-      <configuration name="TestCase2.shouldScrollPageVerticallyAndAssertHeader" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase2_shouldScrollPageVerticallyTwiceAndAssertHeader - 2019.06.05 at 20h 38m 15s.xml">
-      <configuration name="TestCase2.shouldScrollPageVerticallyTwiceAndAssertHeader" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase2_shouldScrollPageVerticallyTwiceAndAssertHeader - 2019.06.05 at 20h 38m 55s.xml">
-      <configuration name="TestCase2.shouldScrollPageVerticallyTwiceAndAssertHeader" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase2_shouldScrollPageVerticallyTwiceAndAssertHeader - 2019.06.05 at 20h 42m 26s.xml">
-      <configuration name="TestCase2.shouldScrollPageVerticallyTwiceAndAssertHeader" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCase2_shouldScrollPageVerticallyTwiceAndAssertHeader - 2019.06.05 at 20h 55m 23s.xml">
       <configuration name="TestCase2.shouldScrollPageVerticallyTwiceAndAssertHeader" configurationId="JUnit" />
     </history-entry>
@@ -284,14 +289,30 @@
     <history-entry file="TestCase3_shouldPressFourKeysAndAssertWhatWasPressed - 2019.06.06 at 20h 59m 36s.xml">
       <configuration name="TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCase1_shouldDisplayErrorWhenUsingInvalidPassword - 2019.06.08 at 11h 11m 00s.xml">
+      <configuration name="TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCase1_shouldDisplayErrorWhenUsingInvalidPassword - 2019.06.08 at 11h 12m 49s.xml">
+      <configuration name="TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCase1_shouldDisplayErrorWhenUsingInvalidPassword - 2019.06.08 at 11h 13m 04s.xml">
+      <configuration name="TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCase3_shouldPressFourKeysAndAssertWhatWasPressed - 2019.06.08 at 11h 18m 29s.xml">
+      <configuration name="TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCase1 - 2019.06.08 at 11h 19m 31s.xml">
+      <configuration name="TestCase1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8472000" />
+    <option name="totallyTimeSpent" value="10245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18659128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18901454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,7 +321,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4561644" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4561644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -308,7 +329,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23287672" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -329,7 +350,27 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -345,34 +386,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCase1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="279">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AutomationHelperMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

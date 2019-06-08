@@ -18,39 +18,34 @@ public class TestCase1 {
     }
 
     @Test
-    public void shouldDisplayErrorWhenUsingInvalidPassword() throws InterruptedException {
-        firefoxDriver.findElementById("username").sendKeys("tomsmith");
-        firefoxDriver.findElementById("password").sendKeys("somePassword");
-        firefoxDriver.findElementByTagName("button").click();
+    public void shouldDisplayErrorWhenUsingInvalidPassword() {
+        HelperMethods.login(firefoxDriver, "tomsmith", "somePassword");
 
         String validationText = firefoxDriver.findElementById("flash").getText().trim();
 
-        assertTrue(validationText.contains("Your password is invalid!"));
+        HelperMethods.validateMessage(validationText);
     }
 
     @Test
-    public void shouldDisplayErrorWhenUsingInvalidUsername() throws InterruptedException {
-        firefoxDriver.findElementById("username").sendKeys("someUsername");
-        firefoxDriver.findElementById("password").sendKeys("SuperSecretPassword!");
-        firefoxDriver.findElementByTagName("button").click();
+    public void shouldDisplayErrorWhenUsingInvalidUsername() {
+        HelperMethods.login(firefoxDriver, "someUserName", "SuperSecretPassword!");
 
         String validationText = firefoxDriver.findElementById("flash").getText().trim();
 
-        assertTrue(validationText.contains("Your username is invalid!"));
+        HelperMethods.validateMessage(validationText);
     }
 
     @Test
-    public void loginWithValidCredentialsThenLogout() throws InterruptedException {
-        firefoxDriver.findElementById("username").sendKeys("tomsmith");
-        firefoxDriver.findElementById("password").sendKeys("SuperSecretPassword!");
-        firefoxDriver.findElementByTagName("button").click();
+    public void loginWithValidCredentialsThenLogout() {
+        HelperMethods.login(firefoxDriver, "tomsmith", "SuperSecretPassword!");
+
         firefoxDriver.findElementByClassName("icon-signout").click();
 
         String validationText = firefoxDriver.findElementById("flash").getText().trim();
         String header = firefoxDriver.findElementByTagName("h2").getText();
 
-        assertTrue(validationText.contains("You logged out of the secure area!"));
         assertTrue(header.equalsIgnoreCase("login page"));
+        HelperMethods.validateMessage(validationText);
     }
 
     @After

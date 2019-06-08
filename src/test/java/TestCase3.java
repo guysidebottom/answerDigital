@@ -18,7 +18,7 @@ public class TestCase3 {
     }
 
     @Test
-    public void shouldPressFourKeysAndAssertWhatWasPressed() throws InterruptedException {
+    public void shouldPressFourKeysAndAssertWhatWasPressed() {
         firefoxDriver.findElementByTagName("body").sendKeys("a");
         String keyPressOne = firefoxDriver.findElementById("result").getText();
         firefoxDriver.findElementByTagName("body").sendKeys("b");
