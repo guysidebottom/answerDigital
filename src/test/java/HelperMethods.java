@@ -13,4 +13,9 @@ public class HelperMethods {
     public static void validateMessage(String message) {
         assertTrue(message.contains("Your password is invalid!"));
     }
+
+    public static String pressKeyAndReturnResult(FirefoxDriver firefoxDriver, String characterPressed) {
+        firefoxDriver.findElementByTagName("body").sendKeys(characterPressed);
+        return firefoxDriver.findElementById("result").getText();
+    }
 }

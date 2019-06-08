@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe1cb7e-c1e5-4e80-bc0f-dbb24f901f36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomationHelperMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelperMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCase3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,11 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Drivers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -46,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-end-line="26" />
+            <state relative-caret-position="488">
+              <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="183">
               <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -67,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+            <state relative-caret-position="116">
+              <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,11 +72,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AutomationHelperMethods.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HelperMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="240">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,12 +102,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Drivers.java" />
         <option value="$PROJECT_DIR$/src/test/java/ADAutomationTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCase3.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCase2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCase1.java" />
         <option value="$PROJECT_DIR$/src/test/java/AutomationHelperMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCase1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Drivers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HelperMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCase3.java" />
       </list>
     </option>
   </component>
@@ -195,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCase1.shouldDisplayErrorWhenUsingInvalidPassword">
+  <component name="RunManager" selected="JUnit.TestCase3.shouldPressFourKeysAndAssertWhatWasPressed">
     <configuration name="TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnswerDigitalTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -247,9 +246,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" />
         <item itemvalue="JUnit.TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" />
         <item itemvalue="JUnit.TestCase1" />
-        <item itemvalue="JUnit.TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" />
         <item itemvalue="JUnit.TestCase2.shouldScrollPageVerticallyTwiceAndAssertHeader" />
         <item itemvalue="JUnit.TestCase2.shouldScrollPageVerticallyAndAssertHeader" />
       </list>
@@ -269,20 +268,11 @@
       <workItem from="1559675322677" duration="3096000" />
       <workItem from="1559761154758" duration="3055000" />
       <workItem from="1559849910691" duration="1568000" />
-      <workItem from="1559988108748" duration="1481000" />
+      <workItem from="1559988108748" duration="2577000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCase2_shouldScrollPageVerticallyTwiceAndAssertHeader - 2019.06.05 at 20h 55m 23s.xml">
-      <configuration name="TestCase2.shouldScrollPageVerticallyTwiceAndAssertHeader" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase3_shouldPressFourKeysAndAssertWhatWasPressed - 2019.06.06 at 20h 52m 51s.xml">
-      <configuration name="TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase3_shouldPressFourKeysAndAssertWhatWasPressed - 2019.06.06 at 20h 54m 37s.xml">
-      <configuration name="TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCase3_shouldPressFourKeysAndAssertWhatWasPressed - 2019.06.06 at 20h 59m 07s.xml">
       <configuration name="TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" configurationId="JUnit" />
     </history-entry>
@@ -304,9 +294,18 @@
     <history-entry file="TestCase1 - 2019.06.08 at 11h 19m 31s.xml">
       <configuration name="TestCase1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCase1_shouldDisplayErrorWhenUsingInvalidPassword - 2019.06.08 at 11h 28m 06s.xml">
+      <configuration name="TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCase3_shouldPressFourKeysAndAssertWhatWasPressed - 2019.06.08 at 11h 40m 57s.xml">
+      <configuration name="TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCase3_shouldPressFourKeysAndAssertWhatWasPressed - 2019.06.08 at 11h 44m 31s.xml">
+      <configuration name="TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10245000" />
+    <option name="totallyTimeSpent" value="11341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -354,9 +353,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Drivers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCase2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="183">
           <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -364,40 +380,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HelperMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCase3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        <state relative-caret-position="116">
+          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Drivers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AutomationHelperMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

@@ -19,14 +19,10 @@ public class TestCase3 {
 
     @Test
     public void shouldPressFourKeysAndAssertWhatWasPressed() {
-        firefoxDriver.findElementByTagName("body").sendKeys("a");
-        String keyPressOne = firefoxDriver.findElementById("result").getText();
-        firefoxDriver.findElementByTagName("body").sendKeys("b");
-        String keyPressTwo = firefoxDriver.findElementById("result").getText();
-        firefoxDriver.findElementByTagName("body").sendKeys("c");
-        String keyPressThree = firefoxDriver.findElementById("result").getText();
-        firefoxDriver.findElementByTagName("body").sendKeys("d");
-        String keyPressFour = firefoxDriver.findElementById("result").getText();
+        String keyPressOne = HelperMethods.pressKeyAndReturnResult(firefoxDriver, "a");
+        String keyPressTwo = HelperMethods.pressKeyAndReturnResult(firefoxDriver, "b");
+        String keyPressThree = HelperMethods.pressKeyAndReturnResult(firefoxDriver, "c");
+        String keyPressFour = HelperMethods.pressKeyAndReturnResult(firefoxDriver, "d");
 
         assertTrue(keyPressOne.equalsIgnoreCase("You entered: A"));
         assertTrue(keyPressTwo.equalsIgnoreCase("You entered: B"));
