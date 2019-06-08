@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1fe1cb7e-c1e5-4e80-bc0f-dbb24f901f36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelperMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+            <state relative-caret-position="318">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="360">
               <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,12 +75,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/HelperMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="150">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,10 +103,10 @@
         <option value="$PROJECT_DIR$/src/test/java/ADAutomationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCase2.java" />
         <option value="$PROJECT_DIR$/src/test/java/AutomationHelperMethods.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCase1.java" />
         <option value="$PROJECT_DIR$/src/test/java/Drivers.java" />
-        <option value="$PROJECT_DIR$/src/test/java/HelperMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCase3.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HelperMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCase1.java" />
       </list>
     </option>
   </component>
@@ -194,7 +192,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCase3.shouldPressFourKeysAndAssertWhatWasPressed">
+  <component name="RunManager" selected="JUnit.All in AnswerDigitalTest">
+    <configuration name="All in AnswerDigitalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AnswerDigitalTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnswerDigitalTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -214,21 +220,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCase2.shouldScrollPageVerticallyAndAssertHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1.shouldDisplayErrorWhenUsingInvalidUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnswerDigitalTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCase2" />
-      <option name="METHOD_NAME" value="shouldScrollPageVerticallyAndAssertHeader" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCase2.shouldScrollPageVerticallyTwiceAndAssertHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AnswerDigitalTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCase2" />
-      <option name="METHOD_NAME" value="shouldScrollPageVerticallyTwiceAndAssertHeader" />
+      <option name="MAIN_CLASS_NAME" value="TestCase1" />
+      <option name="METHOD_NAME" value="shouldDisplayErrorWhenUsingInvalidUsername" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -246,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in AnswerDigitalTest" />
+        <item itemvalue="JUnit.TestCase1.shouldDisplayErrorWhenUsingInvalidUsername" />
         <item itemvalue="JUnit.TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" />
         <item itemvalue="JUnit.TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" />
         <item itemvalue="JUnit.TestCase1" />
-        <item itemvalue="JUnit.TestCase2.shouldScrollPageVerticallyTwiceAndAssertHeader" />
-        <item itemvalue="JUnit.TestCase2.shouldScrollPageVerticallyAndAssertHeader" />
       </list>
     </recent_temporary>
   </component>
@@ -268,20 +264,11 @@
       <workItem from="1559675322677" duration="3096000" />
       <workItem from="1559761154758" duration="3055000" />
       <workItem from="1559849910691" duration="1568000" />
-      <workItem from="1559988108748" duration="2577000" />
+      <workItem from="1559988108748" duration="3624000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCase3_shouldPressFourKeysAndAssertWhatWasPressed - 2019.06.06 at 20h 59m 07s.xml">
-      <configuration name="TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase3_shouldPressFourKeysAndAssertWhatWasPressed - 2019.06.06 at 20h 59m 36s.xml">
-      <configuration name="TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCase1_shouldDisplayErrorWhenUsingInvalidPassword - 2019.06.08 at 11h 11m 00s.xml">
-      <configuration name="TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCase1_shouldDisplayErrorWhenUsingInvalidPassword - 2019.06.08 at 11h 12m 49s.xml">
       <configuration name="TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" configurationId="JUnit" />
     </history-entry>
@@ -303,9 +290,18 @@
     <history-entry file="TestCase3_shouldPressFourKeysAndAssertWhatWasPressed - 2019.06.08 at 11h 44m 31s.xml">
       <configuration name="TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCase3_shouldPressFourKeysAndAssertWhatWasPressed - 2019.06.08 at 11h 45m 08s.xml">
+      <configuration name="TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_AnswerDigitalTest - 2019.06.08 at 12h 06m 28s.xml">
+      <configuration name="All in AnswerDigitalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCase1_shouldDisplayErrorWhenUsingInvalidUsername - 2019.06.08 at 12h 10m 05s.xml">
+      <configuration name="TestCase1.shouldDisplayErrorWhenUsingInvalidUsername" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11341000" />
+    <option name="totallyTimeSpent" value="12388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -360,16 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCase2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -380,22 +366,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HelperMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="360">
+          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase3.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/HelperMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -23,7 +23,7 @@ public class TestCase1 {
 
         String validationText = firefoxDriver.findElementById("flash").getText().trim();
 
-        HelperMethods.validateMessage(validationText);
+        assertTrue(validationText.contains("Your password is invalid!"));
     }
 
     @Test
@@ -32,7 +32,7 @@ public class TestCase1 {
 
         String validationText = firefoxDriver.findElementById("flash").getText().trim();
 
-        HelperMethods.validateMessage(validationText);
+        assertTrue(validationText.contains("Your username is invalid!"));
     }
 
     @Test
@@ -45,7 +45,7 @@ public class TestCase1 {
         String header = firefoxDriver.findElementByTagName("h2").getText();
 
         assertTrue(header.equalsIgnoreCase("login page"));
-        HelperMethods.validateMessage(validationText);
+        assertTrue(validationText.contains("You logged out of the secure area!"));
     }
 
     @After
