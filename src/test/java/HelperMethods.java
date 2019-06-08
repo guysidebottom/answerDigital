@@ -1,3 +1,5 @@
+//Author Guy Sidebottom
+//Helper methods to reduce code, aid readability and maintenance
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class HelperMethods {

@@ -12,7 +12,7 @@ public class TestCase3 {
 
     @Before
     public void setup() {
-        firefoxDriver = new FirefoxDriver();
+        firefoxDriver = Drivers.createFirefoxDriver();
         firefoxDriver.navigate().to("http://the-internet.herokuapp.com/");
         firefoxDriver.findElementByLinkText("Key Presses").click();
     }

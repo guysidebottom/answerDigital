@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe1cb7e-c1e5-4e80-bc0f-dbb24f901f36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Drivers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelperMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase1.java" afterDir="false" />
     </list>
@@ -30,8 +31,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Drivers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="150">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,11 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -75,11 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/HelperMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -103,9 +101,9 @@
         <option value="$PROJECT_DIR$/src/test/java/ADAutomationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCase2.java" />
         <option value="$PROJECT_DIR$/src/test/java/AutomationHelperMethods.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Drivers.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCase3.java" />
         <option value="$PROJECT_DIR$/src/test/java/HelperMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Drivers.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCase1.java" />
       </list>
     </option>
@@ -243,10 +241,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in AnswerDigitalTest" />
+        <item itemvalue="JUnit.TestCase1" />
         <item itemvalue="JUnit.TestCase1.shouldDisplayErrorWhenUsingInvalidUsername" />
         <item itemvalue="JUnit.TestCase3.shouldPressFourKeysAndAssertWhatWasPressed" />
         <item itemvalue="JUnit.TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" />
-        <item itemvalue="JUnit.TestCase1" />
       </list>
     </recent_temporary>
   </component>
@@ -264,14 +262,11 @@
       <workItem from="1559675322677" duration="3096000" />
       <workItem from="1559761154758" duration="3055000" />
       <workItem from="1559849910691" duration="1568000" />
-      <workItem from="1559988108748" duration="3624000" />
+      <workItem from="1559988108748" duration="4098000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCase1_shouldDisplayErrorWhenUsingInvalidPassword - 2019.06.08 at 11h 12m 49s.xml">
-      <configuration name="TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCase1_shouldDisplayErrorWhenUsingInvalidPassword - 2019.06.08 at 11h 13m 04s.xml">
       <configuration name="TestCase1.shouldDisplayErrorWhenUsingInvalidPassword" configurationId="JUnit" />
     </history-entry>
@@ -299,9 +294,12 @@
     <history-entry file="TestCase1_shouldDisplayErrorWhenUsingInvalidUsername - 2019.06.08 at 12h 10m 05s.xml">
       <configuration name="TestCase1.shouldDisplayErrorWhenUsingInvalidUsername" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_AnswerDigitalTest - 2019.06.08 at 12h 20m 48s.xml">
+      <configuration name="All in AnswerDigitalTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12388000" />
+    <option name="totallyTimeSpent" value="12862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -316,7 +314,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4561644" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4561644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,7 +322,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23287672" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23287672" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -349,17 +347,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Drivers.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/HelperMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCase2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -368,18 +366,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCase3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HelperMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Drivers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -388,8 +383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCase1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

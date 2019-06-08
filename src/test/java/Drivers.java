@@ -1,13 +1,9 @@
-import org.junit.Test;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Drivers {
 
-    @Test
-    public void createFirefoxDriver() {
+    public static FirefoxDriver createFirefoxDriver() {
 
-        FirefoxDriver firefoxDriver = new FirefoxDriver();
-        firefoxDriver.quit();
-
+        return new FirefoxDriver();
     }
 }

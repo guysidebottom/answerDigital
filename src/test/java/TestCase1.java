@@ -8,11 +8,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TestCase1 {
 
-    FirefoxDriver firefoxDriver;
+    private FirefoxDriver firefoxDriver;
 
     @Before
     public void setup() {
-        firefoxDriver = new FirefoxDriver();
+        firefoxDriver = Drivers.createFirefoxDriver();
         firefoxDriver.navigate().to("http://the-internet.herokuapp.com/");
         firefoxDriver.findElementByLinkText("Form Authentication").click();
     }
